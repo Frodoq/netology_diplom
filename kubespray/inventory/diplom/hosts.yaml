@@ -10,7 +10,7 @@ all:
       access_ip: 158.160.78.159
     k8s-worker-2:
       ansible_host: 158.160.193.218
-      ip: 10.30.0.25
+      ip: 10.30.0.30
       access_ip: 158.160.193.218
 
   children:
