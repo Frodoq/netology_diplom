@@ -98,7 +98,7 @@
      echo
      kubectl get secret -n monitoring prometheus-grafana -o jsonpath="{.data.admin-password}" | base64 --decode
      echo
-     ``` [web:71]
+     ``` 
 
    - **страница тестового приложения в браузере**: 
      <img width="3442" height="1304" alt="image" src="https://github.com/user-attachments/assets/f2f703f1-75b7-4789-b03e-8ade02d8868f" />
